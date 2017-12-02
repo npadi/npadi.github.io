@@ -1,0 +1,217 @@
+﻿.Header
+{
+	text-align:left;
+}
+.SubHeader
+{
+	text-align:left;
+	padding-bottom:25px;
+}
+.tablePageTypeU
+{
+	width:100%;
+}
+.tablePageTypeU tr td
+{
+	padding:0px 0px 5px 0px;
+}
+.tablecellu1
+{
+	width:90%;
+}
+.tablecellu1 input
+{
+	width:560px;
+}
+
+.tablecellu2
+{
+	width:45%;
+}
+.tablecellu2 input
+{
+	width:280px;
+}
+
+.tablecellu3
+{
+	width:30%;
+}
+.tablecellu3 input
+{
+	width:187px;
+}
+
+.tablecellu4
+{
+	width:23%;
+}
+.tablecellu4 input
+{
+	width:140px;
+}
+.tablecellu5
+{
+	width:18%;
+}
+.tablecellu5 input
+{
+	width:112px;
+}
+.tablecellu6
+{
+	width:15%;
+}
+.tablecellu6 input
+{
+	width:93px;
+}
+.tablecellu7
+{
+	width:13%;
+}
+.tablecellu7 input
+{
+	width:80px;
+}
+.tablecellu8
+{
+	width:11%;
+}
+.tablecellu8 input
+{
+	width:60px;
+}
+
+table.owner
+{
+	width:100%;
+	padding: 5px 5px 5px 5px;
+}
+table.owner tr td
+{
+	text-align:left;
+	vertical-align:top;
+}
+.tableHeaderColumn1
+{
+	width:100%;
+}
+.tableRowData1
+{
+}
+
+.tableHeaderColumn2
+{
+	width:50%;
+}
+.tableRowData2
+{
+	width:50%;
+}
+.tableHeaderColumn3
+{
+	width:33%;
+}
+.tableRowData3
+{
+	width:33%;
+}
+
+.tableHeaderColumn4
+{
+	width:25%;
+}
+.tableRowData4
+{
+	width:25%;
+}
+
+.tableHeaderColumn5
+{
+	width:20%;
+}
+.tableRowData5
+{
+	width:20%;
+}
+
+.tableHeaderColumn6
+{
+	width:16%;
+}
+.tableRowData6
+{
+	width:16%;
+}
+
+.tableHeaderColumn7
+{
+	width:14%;
+}
+.tableRowData7
+{
+	width:14%;
+}
+
+.tableHeaderColumn8
+{
+	width:11%;
+}
+.tableRowData8
+{
+	width:11%;
+}
+.tableleft
+{
+	text-align:left;
+	padding-left:5px;
+}
+.tableptgeneral
+{
+	padding-bottom:10px;
+}
+
+select
+{
+	width:200px;
+}
+.tablegroupheader
+{
+	font-size:larger;
+	font-weight:bold;
+}
+.tableCellBtn
+{
+	padding-bottom:5px;
+	padding-left:5px;
+	width:100%;
+	text-align:right;
+}
+.tableCellBtn input
+{
+	width:60px;
+
+}
+.tableTypeDiv
+{
+	padding-top:5px;
+	padding-left:1px;
+	height:100%;
+	width:99%;
+}
+.numColsddl
+{
+	width:100px;
+}
+
+table.owner, table.owner th, table.owner td {
+	border-color: #000;
+}
+
+#printLink
+{
+	width:100%;
+	text-align:center;
+	padding-top:25px;
+}

@@ -1,0 +1,33 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 01 Dec 2017 23:02:50 at http://teacherweb.com/CA/AlhambraHighSChool/Padilla/h5.aspx
+(winhttrack -qiC2%Pns0u1%s%uN0%I0p3DaK0H0%kf2A4000000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://teacherweb.com/CA/AlhambraHighSChool/Padilla/h5.aspx -O1 "C:\My Web Sites\padilla" )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:02:50	Warning: 	* security warning: maximum bandwidth limited to 250000 to avoid server overload
+23:03:17	Error: 	"Not Found" (404) at link www.dillydust.com/A_Rulebook_for_Arguments__3rd_Ed_.pdf (from teacherweb.com/CA/AlhambraHighSChool/Padilla/apt1.aspx)
+23:03:17	Error: 	"Bad Request" (400) at link teacherweb.com/CA/AlhambraHighSChool/Padilla/The link: http://www.ibiblio.org/ebooks/Poe/Red_Death.pdf (from teacherweb.com/CA/AlhambraHighSChool/Padilla/apt1.aspx)
+23:03:18	Error: 	"Not Found" (404) at link 1.bp.blogspot.com/-Wh_VCH4HwkI/T5dhPP7-OzI/AAAAAAAAAGM/nLdGpU19pUY/s1600/474152_10150699353812532_634817531_9633202_426871471_o.jpg (from teacherweb.com/CA/AlhambraHighSChool/Padilla/apt1.aspx)
+23:03:18	Error: 	"Bad Request" (400) at link teacherweb.com/CA/AlhambraHighSChool/Padilla/ http://www.jacklondons.net/buildafire.html. (from teacherweb.com/CA/AlhambraHighSChool/Padilla/apt1.aspx)
+23:03:18	Error: 	"Bad Request" (400) at link teacherweb.com/CA/AlhambraHighSChool/Padilla/ http://www.facebook.com/home.php?sk=group_168166023207731 (from teacherweb.com/CA/AlhambraHighSChool/Padilla/apt1.aspx)
+23:03:27	Error: 	"Not Found" (404) at link teacherweb.com/CA/AlhambraHighSChool/Padilla/nfs.sparknotes.com/romeojuliet/‎ (from teacherweb.com/CA/AlhambraHighSChool/Padilla/links3.aspx)
+23:03:29	Error: 	"Not Found" (404) at link www.hyland.org/sleepyhollow/sleep10.txt (from teacherweb.com/CA/AlhambraHighSChool/Padilla/links1.aspx)
+23:03:29	Error: 	"Not Found" (404) at link teacherweb.com/CA/AlhambraHighSChool/Padilla/www.radiostratosphere.com/zsite/behind-the-dial/the-depression-years.html (from teacherweb.com/CA/AlhambraHighSChool/Padilla/links1.aspx)
+23:03:42	Error: 	"Bad Request" (400) at link teacherweb.com/CA/AlhambraHighSChool/Padilla/www.facebook.com/.../Lancer-Model-United-Nations/11583337184 (from teacherweb.com/CA/AlhambraHighSChool/Padilla/apt4.aspx)
+23:03:48	Warning: 	Found for teacherweb.com/CA/AlhambraHighSChool/Padilla/
+23:03:48	Warning: 	File has moved from teacherweb.com/CA/AlhambraHighSChool/Padilla/ to /CA/AlhambraHighSChool/Padilla/index.aspx
+23:03:48	Error: 	"Not Found" (404) at link o.aolcdn.com/myfeeds/html/vis/myaol_cta1.gif (from teacherweb.com/CA/AlhambraHighSChool/Padilla/Syndication.aspx)
+23:03:48	Error: 	"Not Found" (404) at link tkfiles.storage.msn.com/x1piYkpqHC_35nIp1gLE68-wvzLZO8iXl_JMledmJQXP-XTBOLfmQv4zhj4MhcWEJh_GtoBIiAl1Mjh-ndp9k47If7hTaFno0mxW9_i3p_5qQw (from teacherweb.com/CA/AlhambraHighSChool/Padilla/Syndication.aspx)
+23:03:58	Error: 	"Not Found" (404) at link images02.teacherweb.com/Backend/Content/images/printPDF_btn.gif (from images02.teacherweb.com/backend/content/css/billing.css?20151116181648)
+23:04:04	Error: 	"Not Found" (404) at link images02.teacherweb.com/Backend/Content/textPic/images/top_ttl_txt_accnt.gif (from images02.teacherweb.com/backend/content/css/billing.css?20151116181648)
+23:04:04	Error: 	"Not Found" (404) at link images02.teacherweb.com/Backend/Content/images/textPic/tstmnl_ttl_txt.gif (from images02.teacherweb.com/backend/content/css/billing.css?20151116181648)
+23:04:04	Error: 	"Not Found" (404) at link images02.teacherweb.com/Backend/Content/images/textPic/arizonaPic.gif (from images02.teacherweb.com/backend/content/css/billing.css?20151116181648)
+23:04:05	Error: 	"Not Found" (404) at link images02.teacherweb.com/Backend/Content/textPic/images/top_ttl_txt_clsnm.gif (from images02.teacherweb.com/backend/content/css/billing.css?20151116181648)
+23:04:05	Error: 	"Not Found" (404) at link images02.teacherweb.com/Backend/Content/images/textPic/top_ttl_txt_wbadd.gif (from images02.teacherweb.com/backend/content/css/billing.css?20151116181648)
+23:04:05	Error: 	"Not Found" (404) at link images02.teacherweb.com/Backend/Content/images/textPic/top_ttl_txt_cust.gif (from images02.teacherweb.com/backend/content/css/billing.css?20151116181648)
+23:04:05	Error: 	"Not Found" (404) at link images02.teacherweb.com/Content/images/questionMark.gif (from images02.teacherweb.com/backend/content/css/billing.css?20151116181648)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 15 seconds : 403 links scanned, 383 files written (46713009 bytes overall), 11 files updated [1500302 bytes received at 20004 bytes/sec], 5704 bytes transferred using HTTP compression in 2 files, ratio 50%, 1.0 requests per connection
+(19 errors, 3 warnings, 0 messages)

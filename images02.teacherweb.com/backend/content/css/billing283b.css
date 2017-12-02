@@ -1,0 +1,745 @@
+/*reset*/
+h1,h2,h3,div,ul,li,a,img,form,input,p,blockquote,body{margin:0; padding:0;}
+li{ list-style:none;}
+a{outline:none;}
+/*global*/
+body{ background:#A2CA99 url(../images/pymnt_bgd_rpt.jpg) repeat-x;  font:13px 'Trebuchet MS', Georgia, Arial "Times New Roman", Times, serif; line-height:17px; color:#909090;  }
+.floatL{float:left;}
+.floatR{float:right;}
+.hide{display:none;}
+.show{display:block;}
+.clearL{clear:left;}
+.cAlign{ text-align:center;}
+.noMargin{margin:0 !important;}
+.nav{list-style:none;}
+.navRight{float:right !important;}
+h1{ display:block; text-indent:-9999px; float:left; background:url(../images/top_logo_lft.gif) no-repeat; width:322px; height:104px; }
+h1 a { padding:0; margin:25px 0 5px 15px; display:block; width:227px; height:74px; }
+p{padding:5px 0;}
+
+/* General Setting */
+.subtext { font-size:12px; text-align:center; }
+.regularInfoText { font-size:13px; text-align:justify; color:#000000; }
+.regularInfoText .header { font-size:15px; text-align:justify; color:#000000; padding-bottom:3px; }
+.regularInfoText a { text-decoration:none; }
+.spacer { margin: 15px; }
+/* End General Setting */
+
+/*layout structure*/
+#wraper{ width:90%; margin:0 auto;  max-width:1540px; min-width:1024px; text-align:left; width:expression(document.body.clientWidth < 1000? "1024px" : document.body.clientWidth > 1540? "1540px" : "90%");}
+#header{ background:url(../images/top_rpt.gif) repeat-x; }
+#header div{ background:url(../images/top_rt.gif) top right no-repeat; height:104px;   }
+#contentHolder{clear:left; background:#FFFFE7  url(../images/bgd_lft.gif) repeat-y;}
+#mainCol{ background:url(../images/bgd_rt.gif) repeat-y top right; padding:20px; min-height:450px;}
+
+/*main navigation */
+#beMainNav{ background:url(../images/top_nav_lft.gif) no-repeat;  height:31px;}
+#beMainNav div{ background:url(../images/top_nav_rt.gif) top right no-repeat; height:31px; padding:0 10px;}
+#beMainNav ul{ background:url(../images/top_nav_rpt.gif) repeat-x; height:31px; float:left; width:100%;}
+#beMainNav li{float:left; padding:0;  margin:0 5px; }
+#beMainNav a{ text-decoration:none; color:#439F56; font-weight:bold; padding:6px 13px 27px 13px; line-height:30px;   }
+#beMainNav .current { background:url(../images/top_nav_tab_lft.gif) repeat; height:31px; }
+#beMainNav .current a{ background:url(../images/top_nav_tab_rt.gif) top right no-repeat;  }
+
+/*\*/
+html*#beMainNav a {
+[line-height:30px;
+line-height:31px;
+]line-height:30px;
+}
+
+html*#beMainNav a {
+[padding-top:6px;
+padding-top:8px;
+]padding-top:6px;
+}
+
+/*end*/
+
+/*footer*/
+#footer{ background:url(../images/ftr_rpt.gif) repeat-x; height:40px; font-size:90%;}
+#copyright{ background:url(../images/ftr_lft.gif) no-repeat; height:35px; display:block; width:400px; float:left; padding:5px 0 0 15px;}
+#legals{ background:url(../images/ftr_rt.gif) no-repeat top right; height:35px; float:right; padding:5px 10px 0 0;}
+#legals li{ float:left; margin:0 5px; color:#3BA55B; font-weight:bold;  }
+#legals li a{margin-right:5px;  color:#3BA55B; font-weight:bold; text-decoration:none;}
+
+
+/*For Login */
+.login #mainCol{ padding:0 10px 0 10px; min-height:450px;}
+.login .content{ background:url(../images/login/login_win_rpt.gif) repeat-x left bottom ; padding: 50px 0 0 0 !important;}
+.login .error{ font-weight:bold; color:#9D0000; font-size:0.8em; font-family:Arial, Helvetica, sans-serif;}
+.login label{display:block; padding-top:10px; }
+.login .forgot-password{ font-weight:bold; color:#303434; font-size:13px; font-family:Arial, Helvetica, sans-serif;}
+#loginPanel{ background: transparent url(../images/login/login_win.jpg) no-repeat;  color:#fff; width:390px; height:307px; margin:0 auto; clear:both; padding:84px 0 0 110px;}
+#loginPanel div { padding:10px 0 70px 0; }
+/*#loginPanel div { padding:10px 0 35px 0; height:115px; }*/
+#loginPanel a{ color:#fff; text-decoration:none; font-weight:bold;}
+.loginButton{ background:url(../images/admin_login_btn.gif) no-repeat; height:24px; width:68px; border:none; text-indent:-9999px; cursor:pointer !important;}
+.loginButton:hover{ background:url(../images/admin_login_btn.gif) 0 -24px no-repeat;}
+.goToPayment{ background:url(../images/login/goto_pymt_btn.gif) no-repeat; height:24px; width:154px; border:none; text-indent:-9999px; cursor:pointer !important;}
+.goToPayment:hover{ background:url(../images/login/goto_pymt_btn.gif) 0 -24px no-repeat;}
+.sendPassword{ background:url(../images/login/send_pword_button.gif) no-repeat; height:24px; width:118px; border:none; text-indent:-9999px; cursor:pointer !important;}
+.sendPassword:hover{ background:url(../images/login/send_pword_button.gif) 0 -24px no-repeat;}
+.cancel{ background:url(../images/login/cancel_button.gif) no-repeat; height:24px; width:74px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.cancel:hover{ background:url(../images/login/cancel_button.gif) 0 -24px no-repeat;}
+.login .textBox{ background:url(../images/login/payments_page_login_10.gif) no-repeat; width:280px; height:14px; border:none; padding:5px;}
+
+.authenticate{ background:url(../images/auth_btn2.gif) no-repeat; height:24px; width:202px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.authenticate:hover{ background:url(../images/auth_btn2.gif) 0 -24px no-repeat;}
+
+.delete-account-authenticate{ background:url(../images/authenticate_btn.gif) no-repeat; height:24px; width:202px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.delete-account-authenticate:hover{ background:url(../images/authenticate_btn.gif) 0 -24px no-repeat;}
+
+.updatePasswords{ background:url(../images/update_pass_btn2.gif) no-repeat; height:24px; width:135px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.updatePasswords:hover{ background:url(../images/update_pass_btn2.gif) 0 -24px no-repeat;}
+
+.viewPasswords{ background:url(../images/view_pass_btn2.gif) no-repeat; height:24px; width:125px; border:none; text-indent:-9999px; cursor:pointer !important;}
+.viewPasswords:hover{ background:url(../images/view_pass_btn2.gif) 0 -24px no-repeat;}
+
+.hidePasswords{ background:url(../images/hide_pass_btn2.gif) no-repeat; height:24px; width:123px; border:none; text-indent:-9999px; cursor:pointer !important;}
+.hidePasswords:hover{ background:url(../images/hide_pass_btn2.gif) 0 -24px no-repeat;}
+
+/*.forgotPassword {border:1px solid black; height:15px;}*/
+
+
+.goToUpdate{ background:url(../../../Content/images/goto_updt_button.gif) no-repeat; height:24px; width:153px; border:none; text-indent:-9999px; cursor:pointer !important;}
+.goToUpdate:hover{ background:url(../../../Content/images/goto_updt_button.gif) 0 -24px no-repeat;}
+
+
+/*For My Account*/
+/*layout*/
+#mainCol .content{ position:relative; padding-left:199px;  zoom:1;}
+#sideMenu{width:178px; position:absolute; left:0;}
+#rCol{ background:#fff; border:1px solid #99D387; padding-bottom:10px; }
+#rCol .content{ position:static; padding:10px; width:520px; margin:0 auto; }
+#rCol .stats{ width:95%; color: #333333; }
+
+/*txt /Backend/Content/images*/
+.txtImg{ text-indent:-9999px;  line-height:14px; font-size:14px; height:20px;}
+.enterEditCardTxt{ background:url(../images/ttl_txt_cred.gif) no-repeat; }
+.enterEditBillingInfoTxt{ background:url(../images/ttl_txt_blg.jpg) no-repeat;}
+.printYourChkInfoTxt{ background:url(../images/ttl_txt_chk.gif) no-repeat;}
+.chkStatusAndHistoryTxt{background:url(../images/ttl_txt_sts.gif) no-repeat;}
+.manageAccountPasswordTxt{background:url(../images/ttl_txt_mngacpw.gif) no-repeat;}
+.manageAccountInformationTxt{background:url(../images/ttl_txt_mng_acct_nfo.png) no-repeat;}
+.manageSitesLookAndFeel{background:url(../images/ttl_txt_mng4.gif) no-repeat;}
+.mySitesMessages{background:url(../images/ttl_txt_mystsmsgs.png) no-repeat;}
+.manageSitesDividerLine{background:url(../images/ttl_txt_mng_site_dvdr.png) no-repeat;}
+.txtUpdateIndex{background:url(../images/ttl_txt_updt_indx.png) no-repeat;}
+.siteUsageTxt{background:url(../images/ttl_txt_site_usage.png) no-repeat;}
+
+.manageSitesEmailLinkIcon{background:url(../images/ttl_txt_mng_site_eml_link.gif) no-repeat;}
+.manageSitesOutsideLinkIconTW{background:url(../images/ttl_txt_mng_site_outs_link.gif) no-repeat;}
+.manageSitesOutsideLinkIconWN{background:url(../images/ttl_txt_mng_site_outs_link.gif) no-repeat;}
+
+.manageSitesBackground{background:url(../images/ttl_txt_mng_site_bgd.png) no-repeat;}
+.customizedWebTxt{background:url(../images/ttl_txt_cust_my_web.png) no-repeat;}
+.customizedFontsTxt{background:url(../images/ttl_txt_cust_font.png) no-repeat;}
+.enterAccountCodeTxt{ background:url(../images/ttl_txt_acccd.gif) no-repeat; }
+.enterGiftCertificateTxt{background:url(../images/ttl_txt_gc.gif) no-repeat;}
+/*button*/
+.printBtnHolder{ margin-bottom:20px;}
+.btn{border:none; text-indent:-9999px; height:24px; cursor:pointer; display:block; margin:0 auto;}
+.btnSubmitPayment{ background:url(../images/sbmt_pmnt_btn.gif) no-repeat; width:121px;}
+.btnSubmitPayment:hover{ background:url(../images/sbmt_pmnt_btn.gif) 0 -24px no-repeat;}
+.btnSubmit{ background:url(../images/submit_btn.gif) no-repeat; width:121px;}
+.btnSubmit:hover{ background:url(../images/submit_btn.gif) 0 -24px no-repeat;}
+.btnPrintHTML{ background:url(../images/prnt_htm_btn.gif) no-repeat; width:113px; float:left;}
+.btnViewPrintHTML{ background:url(../images/view_prnt_btn.gif) no-repeat; width:169px; float:left;}
+.btnUpdatePaymentInfo{ background:url(../images/updt_pymnt_info_btn.gif) no-repeat; width:193px;}
+.btnUpdatePaymentInfo:hover{ background:url(../images/updt_pymnt_info_btn.gif) 0 -24px no-repeat;}
+.btnPrintPDF2{ background:url(../images/printPDF_btn.html) no-repeat; width:113px; float:left;}
+.btnPrintPDF{ width:113px; float:left;}
+.btnPending{border:none; height:24px; cursor:pointer; display:block; margin:0 auto;}
+
+/*side menu*/
+#sideMenu a{ display:block; text-indent:-9999px; height:40px; width:200px;}
+#sideMenu li ul li a{ display:block; text-indent:-9999px; height:28px; width:200px;}
+#sideMenu .invisible {visibility:hidden;height:0px;}
+#paymentStatus a{ background:url(../images/pymt_sts_btn_m.gif) no-repeat;}
+#paymentStatus a:hover{ background:url(../images/pymt_sts_btn_m.gif) 0 -40px no-repeat;}
+#paymentStatus.current a, #paymentStatus.current a:hover {background:url(../images/pymt_sts_btn_m.gif) 0 -80px  no-repeat;}
+#paymentStatusAlt a{ background:url(../images/status_btn2.gif) no-repeat;}
+#paymentStatusAlt a:hover{ background:url(../images/status_btn2.gif) 0 -40px no-repeat;}
+#paymentStatusAlt.current a, #paymentStatusAlt.current a:hover {background:url(../images/status_btn2.gif) 0 -80px  no-repeat;}
+#accountInfo a{ background:url(../images/acct_nfo_btn_t.gif) no-repeat;}
+#accountInfo a:hover{ background:url(../images/acct_nfo_btn_t.gif) 0 -40px no-repeat;}
+#accountInfo.current a, #accountInfo.current a:hover {background:url(../images/acct_nfo_btn_t.gif) 0 -80px  no-repeat;}
+#passwordManagement a{ background:url(../images/sdnv_pwmng_btn.gif) no-repeat;}
+#passwordManagement a:hover{ background:url(../images/sdnv_pwmng_btn.gif) 0 -40px no-repeat;}
+#passwordManagement.current a, #passwordManagement.current a:hover {background:url(../images/sdnv_pwmng_btn.gif) 0 -80px  no-repeat;}
+#background a{ background:url(../images/bgd_m_btn.gif) no-repeat;}
+#background a:hover{ background:url(../images/bgd_m_btn.gif) 0 -40px no-repeat;}
+#background.current a, #background.current a:hover {background:url(../images/bgd_m_btn.gif) 0 -80px  no-repeat;}
+#dividerline a{ background:url(../images/dvdln_m_btn.gif) no-repeat;}
+#dividerline a:hover{ background:url(../images/dvdln_m_btn.gif) 0 -40px no-repeat;}
+#dividerline.current a, #dividerline.current a:hover {background:url(../images/dvdln_m_btn.gif) 0 -80px  no-repeat;}
+#emaillinkicon a{ background:url(../images/emal_link_mid_btn.gif) no-repeat;}
+#emaillinkicon a:hover{ background:url(../images/emal_link_mid_btn.gif) 0 -40px no-repeat;}
+#emaillinkicon.current a, #emaillinkicon.current a:hover {background:url(../images/emal_link_mid_btn.gif) 0 -80px  no-repeat;}
+#outsidelinkicontw a{ background:url(../images/schl_link_mid_btn.gif) no-repeat;}
+#outsidelinkicontw a:hover{ background:url(../images/schl_link_mid_btn.gif) 0 -40px no-repeat;}
+#outsidelinkicontw.crruent a, #outsidelinkicontw.current a:hover {background:url(../images/schl_link_mid_btn.gif) 0 -80px  no-repeat;}
+#outsidelinkiconwn a{ background:url(../images/orgnztn_link_mid_btn.gif) no-repeat;}
+#outsidelinkiconwn a:hover{ background:url(../images/orgnztn_link_mid_btn.gif) 0 -40px no-repeat;}
+#outsidelinkiconwn.current a, #outsidelinkiconwn.current a:hover {background:url(../images/orgnztn_link_mid_btn.gif) 0 -80px  no-repeat;}
+#customizefonts a{ background:url(../images/cust_fonts_mid_btn.gif) no-repeat;}
+#customizefonts a:hover{ background:url(../images/cust_fonts_mid_btn.gif) 0 -40px no-repeat;}
+#customizefonts.current a, #customizefonts.current a:hover {background:url(../images/cust_fonts_mid_btn.gif) 0 -80px  no-repeat;}
+#customizeweb a{ background:url(../images/cust_web_btn_b.gif) no-repeat;}
+#customizeweb a:hover{ background:url(../images/cust_web_btn_b.gif) 0 -40px no-repeat;}
+#customizeweb.current a, #customizeweb.current a:hover {background:url(../images/cust_web_btn_b.gif) 0 -80px  no-repeat;}
+#lookandfeel a{ background:url(../images/look_feel_btn_t.gif) no-repeat;}
+#lookandfeel a:hover{ background:url(../images/look_feel_btn_t.gif) 0 -40px no-repeat;}
+#lookandfeel.current a, #lookandfeel.current a:hover {background:url(../images/look_feel_btn_t.gif) 0 -80px  no-repeat;}
+#lookandfeelalt a{ background:url(../images/lookandfeel_btn1.gif) no-repeat;}
+#lookandfeelalt a:hover{ background:url(../images/lookandfeel_btn1.gif) 0 -40px no-repeat;}
+#lookandfeelalt.current a, #lookandfeelalt.current a:hover {background:url(../images/lookandfeel_btn1.gif) 0 -80px  no-repeat;}
+#messages a{ background:url(../images/inbox_btn_pil.gif) no-repeat;}
+#messages a:hover{ background:url(../images/inbox_btn_pil.gif) 0 -40px no-repeat;}
+#messages.current a, #lookandfeelalt.current a:hover {background:url(../images/inbox_btn_pil.gif) 0 -80px  no-repeat;}
+#printableHandout a{ background:url(../images/sdnv_handout_btn.gif) no-repeat;}
+#printableHandout a:hover{ background:url(../images/sdnv_handout_btn.gif) 0 -40px no-repeat;}
+#printableHandout.current a, #printableHandout.current a:hover {background:url(../images/sdnv_handout_btn.gif) 0 -80px  no-repeat;}
+#makePayment a{ background:url(../images/sdnv_pymt_btn.gif) no-repeat;}
+#makePayment a:hover{ background:url(../images/sdnv_pymt_btn.gif) 0 -40px no-repeat;}
+#makePayment .current a, #billingInfo.current a:hover {background:url(../images/sdnv_pymt_btn.gif) 0 -80px  no-repeat;}
+#makePayment_ia a{ background:url(../images/sdnv_pymt_btn_inactive.gif) no-repeat;}
+#makePayment_ia a:hover{ background:url(../images/sdnv_pymt_btn_inactive.gif) 0 -40px no-repeat;}
+#makePayment_ia .current a, #billingInfo.current a:hover {background:url(../images/sdnv_pymt_btn_inactive.gif) 0 -80px  no-repeat;}
+#billingInfo a{ background:url(../images/billing_btn2.gif) no-repeat;}
+#billingInfo a:hover{ background:url(../images/billing_btn2.gif) 0 -40px no-repeat;}
+#billingInfo.current a, #billingInfo.current a:hover {background:url(../images/billing_btn2.gif) 0 -80px  no-repeat;}
+#cardPayment a{ background:url(../images/creditcard_btn2.gif) no-repeat;}
+#cardPayment a:hover{ background:url(../images/creditcard_btn2.gif) 0 -40px no-repeat;}
+#cardPayment.current a, #cardPayment.current a:hover {background:url(../images/creditcard_btn2.gif) 0 -76px  no-repeat;}
+#chkPayment a{ background:url(../images/check_btn2.gif) no-repeat;}
+#chkPayment a:hover{ background:url(../images/check_btn2.gif) 0 -18px no-repeat;}
+#chkPayment.current a, #chkPayment.current a:hover {background:url(../images/check_btn2.gif) 0 -18px  no-repeat;}
+#MPcardPayment a{ background:url(../images/pymt_cc_btn.gif) no-repeat;}
+#MPcardPayment a:hover{ background:url(../images/pymt_cc_btn.gif) 0 -28px no-repeat;}
+#MPcardPayment.current a, #cardPayment.current a:hover {background:url(../images/pymt_cc_btn.gif) 0 -28px  no-repeat;}
+#MPchkAC a{ background:url(../images/pymt_accd_btn.gif) no-repeat;}
+#MPchkAC a:hover{ background:url(../images/pymt_accd_btn.gif) 0 -28px no-repeat;}
+#MPchkAC.current a, #chkPayment.current a:hover {background:url(../images/pymt_accd_btn.gif) 0 -28px  no-repeat;}
+#MPchkPayment a{ background:url(../images/pymt_chk_btn.gif) no-repeat;}
+#MPchkPayment a:hover{ background:url(../images/pymt_chk_btn.gif) 0 -28px no-repeat;}
+#MPchkPayment.current a, #chkPayment.current a:hover {background:url(../images/pymt_chk_btn.gif) 0 -28px  no-repeat;}
+#MPchkGC a{ background:url(../images/pymt_gc_btn.gif) no-repeat;}
+#MPchkGC a:hover{ background:url(../images/pymt_gc_btn.gif) 0 -28px no-repeat;}
+#MPchkGC.current a, #chkPayment.current a:hover {background:url(../images/pymt_gc_btn.gif) 0 -28px  no-repeat;}
+li#updateIndex a{ background:url(../images/updt_indx_pil_btn.gif) no-repeat;}
+li#updateIndex a:hover{ background:url(../images/updt_indx_pil_btn.gif) 0 -40px no-repeat;}
+li#updateIndex.current a, li#updateIndex.current a:hover {background:url(../images/updt_indx_pil_btn.gif) 0 -80px  no-repeat;}
+li#siteusage a{ background:url(../images/site_usage_m_btn.gif) no-repeat;}
+li#siteusage a:hover{ background:url(../images/site_usage_m_btn.gif) 0 -40px no-repeat;}
+li#siteusage.current a, li#siteusage.current a:hover {background:url(../images/site_usage_m_btn.gif) 0 -80px  no-repeat;}
+
+/*form area*/
+
+.formArea{margin:18px 0 18px 0;}
+.formArea p{display:block; clear:left; padding:3px 0; height:24px; color:#3BA55B;}
+.formArea label{display:block; float:left;  width:165px; text-align:right; padding-right:10px;}
+.formArea .txtBox{ background:url(../images/input_xlg.gif) no-repeat; width:270px; height:18px; border:none; padding:3px 5px;}
+.formArea input,  .formArea select {float:left; color:#A2424E;}
+.note{ font-size:85%; margin-bottom:18px;}
+.note a{color:#909090;}
+.seeNote{ color:#A2424E;}
+.controlScan{ padding-top:5px; padding-top:20px; text-align:center; }
+
+/*recurringpayments*/
+.recurringpayments{}
+.recurringpayments p{display:block; clear:left; padding:3px 0; height:24px; color:#3BA55B;}
+.recurringpayments p label{white-space:nowrap;display:block; text-align:right; padding-right:10px;font-weight:bold;}
+.recurringpayments input,  .recurringpayments select {color:#A2424E;}
+
+/*textbox bg*/
+.formArea .txtBox{ background:url(../images/input_xlg.gif) no-repeat; width:270px; height:18px; border:none; padding:3px 5px;}
+.formArea .lSize{ background:url(../images/input_lg.gif) no-repeat; width:140px;}
+.formArea .mSize{ background:url(../images/input_lg.gif) no-repeat; width:80px;}
+.formArea .sSize{ background:url(../images/input_sm.gif) no-repeat; width:66px;}
+
+/*table style*/
+.statsTblTdDate{width:20%;text-align:center;min-width:100px;}
+.statsTblTdMethod{width:15%;text-align:left;min-width:150px;}
+.statsTblTdCurrency{width:10%;text-align:right;min-width:50px;padding-right:10px;}
+.statsTblTdNotes{text-align:left}
+
+.statsTbl{width:100%; border-collapse:collapse; border:1px solid #A3434E; }
+.statsTbl th {padding:5px; text-align:center;}
+.statsTbl th{ background:url(../images/pymnt_sts_tbl_rpt.gif) repeat-x; height:30px; color:#fff; font-weight:normal;}
+.statsTbl td{ color:#3BA55B; padding:5px; }
+.statsTbl .alt{ background:#E9F6DC;}
+.statsTbl .current{font-weight:bold;}
+.statsTbl strong{ display:block; text-align:right; color:#A54052; padding-right:10px;}
+
+/*recurringpayments.occurrences */
+.occurrence{margin:0 0 5px 25px;width:100%;}
+.occurrence tr td {float:left;font-weight:bold;}
+.occurrence tr td label{width:90px;margin:0 0 0 5px; line-height:14px;white-space:nowrap;text-align:left;font-weight:normal;color:#A2424E;}
+
+
+
+/*for payment status*/
+.stats h3{margin:10px 0 5px 0; color:#A54052; font-size:15px;}
+
+/*For CCV*/
+#whatIsCCV{ color:#3BA55B; background:url(../images/questionMark.gif) no-repeat; height:19px; padding-left:19px; display:inline-block; }
+#whatIsCCV img{border:none;}
+#securityCodeSample{ border:2px solid #99D387; padding:10px; position:absolute; background:#fff; width:565px; height:390px; top:40%; right:10%; zoom:1;}
+#securityCodeSample img{border:none;}
+#securityCodeSample strong{color:#444; margin-bottom:5px; display:block; }
+#securityCodeSample .sample{width:250px; float:left; padding:10px; height:260px; margin-bottom:10px; text-align:left;}
+#securityCodeSample #forOthers{border-left:1px dotted #aaa; padding-left:30px;}
+#securityCodeSample .note{display:block; clear:both; }
+
+/*For Password Recovery */
+#forgotPasswordV3{ color:#3BA55B; background:url(../../../tweb/assets/images/giftCertificate/questionMark.gif) no-repeat; height:19px; padding-left:0px; display:inline-block; }
+#forgotPasswordV3 img{border:none;}
+#sendLostPassword{ border:2px solid #99D387; padding:10px; position:absolute; background:#fff; width:285px; height:25px; top:53%; right:22.5%; zoom:1;}
+#sendLostPassword img{border:none;}
+#sendLostPassword strong{color:#444; margin-bottom:5px; display:block; }
+#sendLostPassword .sample{width:285px; float:left; font-size:13px; padding:10px 0px; height:260px; margin-bottom:10px; text-align:center;}
+#sendLostPassword #forOthers{border-left:1px dotted #aaa; padding-left:30px;}
+#sendLostPassword .note{display:block; color:#000000; clear:both; text-align:center; font:13px 'Trebuchet MS', Georgia, Arial "Times New Roman", Times, serif; line-height:17px; }
+/*End For Password Recovery */
+
+/* passwordmanagement.aspx */
+.changePassword {}
+.changePassword h3 {color:#A54052;font-size:15px;margin:10px 0 5px;}
+.changePassword .container {margin-bottom:25px;}
+.changePassword .header {float:left;color:#A54052;font-size:15px;margin:0px 10px 0px 0px;font-weight:bold;}
+.changePassword .change {font-size:11px;}
+.changePassword .description {font-size:11px;}
+.changePassword ul {margin:10px 0px 20px 0px;}
+.changePassword li {padding-left:15px;}
+.updated-passwords { text-align: left; padding: 10px; margin-bottom: 20px; border: 1px solid #C0C0C0; width: 552px; color:#3CB371; font-weight:bold; }
+.access-denied { text-align: left; padding: 10px; margin-bottom: 20px; border: 1px solid #C0C0C0; width: 552px; color:Red; font-weight:bold; }
+.no-change { text-align: left; padding: 10px; margin-bottom: 20px; border: 1px solid #C0C0C0; width: 552px; color:#333333; font-weight:bold; }
+.validation-summary { text-align: left; padding: 10px; margin-bottom: 20px; border: 1px solid #C0C0C0; width: 552px; }
+/* end passwordmanagement.aspx */
+
+/* accountinfo.aspx */
+.updateAccountInfo {}
+.updateAccountInfo h3 {color:#A54052;font-size:15px;margin:10px 0 5px;}
+.updateAccountInfo .container {margin-bottom:25px;}
+.updateAccountInfo .header {float:left;color:#A54052;font-size:15px;margin:0px 10px 0px 0px;font-weight:bold;}
+.updateAccountInfo .change {font-size:11px;}
+.updateAccountInfo .description {font-size:11px;}
+.updateAccountInfo ul {margin:10px 0px 20px 0px;}
+.updateAccountInfo li {padding-left:15px;}
+.updated-account-info { text-align: left; padding: 10px; margin-bottom: 20px; border: 1px solid #C0C0C0; width: 552px; color:#3CB371; font-weight:bold; }
+.validation-summary { text-align: left; padding: 10px; margin-bottom: 20px; border: 1px solid #C0C0C0; width: 552px; }
+.accountInfoButton{ background:url(../images/updt_acct_nfo_btn.gif) no-repeat; height:24px; width:192px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.accountInfoButton:hover{ background:url(../images/updt_acct_nfo_btn.gif) 0 -24px no-repeat;}
+.deleteAccountButton{ background:url(../images/dlt_my_act_btn.gif) no-repeat; height:24px; width:142px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.deleteAccountButton:hover{ background:url(../images/dlt_my_act_btn.gif) 0 -24px no-repeat;}
+.continueButton{ background:url(../images/continue_btn.gif) no-repeat; height:24px; width:82px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.continueButton:hover{ background:url(../images/continue_btn.gif) 0 -24px no-repeat;}
+.proceedButton{ background:url(../images/prcd_btn.gif) no-repeat; height:24px; width:82px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.proceedButton:hover{ background:url(../images/prcd_btn.gif) 0 -24px no-repeat;}
+.cancelButton{ background:url(../images/cncl_btn.gif) no-repeat; height:24px; width:72px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.cancelButton:hover{ background:url(../images/cncl_btn.gif) 0 -24px no-repeat;}
+.submitButton{ background:url(../images/sbmt_btn.gif) no-repeat; height:24px; width:72px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.submitButton:hover{ background:url(../images/sbmt_btn.gif) 0 -24px no-repeat;}
+/* end passwordmanagement.aspx */
+
+/* customizeweb.aspx */
+.updateSiteCustomization {width:615px; text-align:center;}
+.updateSiteCustomization h3 {color:#A54052;font-size:15px;margin:10px 0 5px;}
+.updateSiteCustomization .container {margin-bottom:25px;}
+.updateSiteCustomization .header {float:left;color:#A54052;font-size:15px;margin:0px 10px 0px 0px;font-weight:bold;}
+.updateSiteCustomization .change {font-size:11px;}
+.updateSiteCustomization .description {font-size:11px; clear:both;}
+.updateSiteCustomization ul {margin:10px 0px 20px 0px;}
+.updateSiteCustomization li {padding-left:15px;}
+.updated-site-customization { text-align: left; padding: 10px; margin-bottom: 20px; border: 1px solid #C0C0C0; width: 595px; color:#3CB371; font-weight:bold; }
+.site-customization-error { text-align: left; padding: 10px; margin-bottom: 20px; border: 1px solid #C0C0C0; width: 595px; color:#8A1F11; font-weight:bold; }
+.validation-summary { text-align: left; padding: 10px; margin-bottom: 20px; border: 1px solid #C0C0C0; width: 552px; }
+.updateSiteCustomization .textbox {padding-top:3px;}
+.customizeWebButton{ background:url(../images/upd_cst_web_set_btn.gif) no-repeat; height:24px; width:212px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.customizeWebButton:hover{ background:url(../images/upd_cst_web_set_btn.gif) 0 -24px no-repeat;}
+/* end customizeweb.aspx */
+
+/* customizefonts.aspx */
+.updateFontsCustomization {width:615px; text-align:center;}
+.customizeFontsButton{ background:url(../images/updt_cust_font_sett_btn.gif) no-repeat; height:24px; width:210px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.customizeFontsButton:hover{ background:url(../images/updt_cust_font_sett_btn.gif) 0 -24px no-repeat;}
+/* end customizefonts.aspx */
+
+/*other*/
+#userPageLink{color:#918B8D; text-decoration:none; font-style:italic; font-weight:bold;}
+#newsLetter{padding-left:60px;}
+#newsLetter input, #agreeCharge input{margin-right:5px;}
+#agreeCharge{color:#3BA55B; margin-bottom:20px;}
+.thankyou, .invoice, .address{ color:#3BA55B; display:block; margin-top:10px;}
+.invoice span{color:#A2424E; font-weight:bold;}
+.thankyou{ font-style:italic; font-size:14px;}
+
+/*wesley*/
+#topmenu ul li {list-style:none;float:left;padding-left:10px;padding-right:10px;border-right:solid 1px black;}
+#nameaddress label {width:150px;font-weight:bold;text-align:right;white-space:nowrap;float:left;}
+.boldlabel {font-weight:bold;}
+.centerdiv{text-align:center;}
+.cphmaster{border:solid 1px black;float:left;width:800px;padding-left:50px;padding-right:50px;padding-bottom:50px;padding-top:50px;}
+#topmenu ul li {list-style:none;float:left;padding-left:10px;padding-right:10px;border-right:solid 1px black;}
+#nameaddress label {width:150px;font-weight:bold;text-align:right;white-space:nowrap;float:left;}
+.boldlabel {font-weight:bold;}
+.centerdiv{text-align:center;}
+.cphmaster{border:solid 1px black;float:left;width:800px;padding-left:50px;padding-right:50px;padding-bottom:50px;padding-top:50px;}
+
+/* Messages (Notice and Error)
+----------------------------------------------------------*/
+#notice, #alert {text-align: center; padding: 2px; margin: 15px 15% 15px 15%; width: 70%; }
+#notice {border: solid 1px #007e00; background-color: #c2ffc2; color: #007e00;}
+#alert {border: solid 1px #7e0000; background-color: #ffc2c2; color: #7e0000;}
+.alert {border: solid 1px #7e0000; background-color: #ffc2c2; color: #7e0000; padding:10px; margin-bottom: 10px; width:96%;}
+
+.site-expired {text-align: center; padding: 10px 0; width: 100%; margin:2px 0px 20px 0;}
+.site-expired {border: solid 1px; background-color: #FEEFB3; color: #9F6000;}
+
+.site-expired a {text-decoration:none;}
+.site-expired a:hover {text-decoration:underline;}
+/* End Messages (Notice and Error)
+----------------------------------------------------------*/
+
+.modalBackground {
+	background-color: Gray;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+.modalPopup {
+	background-color: #fff;
+	border-width: 3px;
+	border: solid 3px Gray;
+	padding: 3px;
+}
+.validationsummary{color:#f00;font-size:11px;}
+
+.message {height:65px;}
+/*.message p{padding:5px 0;position:absolute;top:290px;}*/
+#legal {position:absolute;top:347px;}
+
+/*
+.new-button {margin:5px; width:144px; height:30px;}
+.new-button a{ background:url(/Backend/Content/images/embossed_btn.gif) no-repeat; margin:5px; width:144px; height:30px;}
+.new-button a:hover{ background:url(/Backend/Content/images/embossed_btn.gif) 0 -30px no-repeat;}
+.new-button .current a, #billingInfo.current a:hover {background:url(/Backend/Content/images/embossed_btn.gif) 0 -80px  no-repeat;}
+*/
+
+.new-button {
+    height: auto;
+    width: 144px;
+}
+
+/*
+div#menu li {
+    height: 30px;
+    width: 144px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    line-height: 200%;
+    list-style-type: none;
+    background-image: url(/Backend/Content/images/embossed_btn.gif);
+    background-repeat: no-repeat;
+}
+div#menu li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+*/
+
+.new-button a
+{
+    height: 30px;
+    width: 144px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 250%;
+    list-style-type: none;
+    background-image: url(../images/embossed_btn.gif);
+    background-repeat: no-repeat;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+
+
+.new-button a:link {
+    color: blue:
+}
+.new-button a:visited {
+    color: #900;
+}
+.new-button a:hover {
+    font-weight: bold;
+    color: red;
+    background:url(../images/embossed_btn.gif) 0 -30px  no-repeat;
+}
+
+.new-button a:active {
+    font-weight: bold;
+    color: red;
+    /*
+    background-image: url(/Backend/Content/images/embossed_btn.gif);
+    background-repeat: no-repeat;
+    */
+}
+
+/* Password Management */
+.manage-passwords { text-decoration: none; }
+.manage-passwords:hover { text-decoration: underline; }
+/* End Password Management */
+
+/* Background */
+/*
+#cusLeftCol .background-list {overflow:auto; border:1px solid #a3424d; clear:both; width:210px;}
+#cusLeftCol .background-list {font-size:14px; display:block; text-decoration:none;color:#42a357; cursor:pointer;height:400px;}
+*/
+#cusLeftCol .background-list {overflow:auto; border:1px solid #a3424d; clear:both; width:700px;}
+#cusLeftCol .background-list {font-size:14px; display:block; text-decoration:none;color:#42a357; cursor:pointer;height:200px; width:700px;}
+#cusRightCol #background-preview{clear:both; border:1px solid #a3424d; display:block; padding:3px; background:#fff; height:390px; background-repeat:repeat;}
+.divUpdateBackground {width:180px;}
+.backgroundButton{ background:url(../images/updt_bgd_btn.gif) no-repeat; height:24px; width:142px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.backgroundButton:hover{ background:url(../images/updt_bgd_btn.gif) 0 -24px no-repeat;}
+.backgroundUserFiles {width:700px;}
+/* End Background */
+
+/* Divider Line */
+#dividerLineCustomContainer {margin-top:0px; clear:both; width:700px; margin-left:auto; margin-right:auto;}
+#dividerLineCustomContainer p {margin-bottom:25px;}
+.divUpdateDividerLine {width:180px;}
+#cusLeftCol .divider-line-list {overflow:auto; border:1px solid #a3424d; clear:both; width:700px;}
+#cusLeftCol .divider-line-list {font-size:14px; display:block; text-decoration:none;color:#42a357; cursor:pointer;height:200px; width:700px;}
+#dividerLineCustomContainer #cusRightCol {width:700px; float:none; clear:both;}
+#cusRightCol #divider-line-preview{clear:both; border:1px solid #a3424d; display:block; background:#fff; padding:25px 0px; width:700px; text-align:center;}
+#pnlDividerLine {vertical-align:middle; top: 150px;}
+.dividerLineButton{ background:url(../images/updt_dvdln_btn.gif) no-repeat; height:24px; width:142px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.dividerLineButton:hover{ background:url(../images/updt_dvdln_btn.gif) 0 -24px no-repeat;}
+.dividerLineUserFiles {width:700px;}
+/* End Divider Line */
+
+/* OutsideLinkIcon Icon */
+#outsideLinkIconCustomContainer {margin-top:0px; clear:both; width:700px; margin-left:auto; margin-right:auto;}
+#outsideLinkIconCustomContainer p {margin-bottom:25px;}
+.divUpdateOutsideLinkIcon {width:180px;}
+#cusLeftCol .outside-link-icon-list {overflow:auto; border:1px solid #a3424d; clear:both; width:700px;}
+#cusLeftCol .outside-link-icon-list {font-size:14px; display:block; text-decoration:none;color:#42a357; cursor:pointer;height:153px; width:700px;}
+#outsideLinkIconCustomContainer #cusRightCol {width:700px; float:none; clear:both;}
+#cusRightCol #outside-link-icon-preview{clear:both; border:1px solid #a3424d; display:block; background:#fff; padding:25px 0px; width:700px; text-align:center;}
+#pnlOutsideLinkIcon {vertical-align:middle; top: 150px;}
+.outsideLinkIconButtonTW{ background:url(../images/upd_schl_link_btn.gif) no-repeat; height:24px; width:172px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.outsideLinkIconButtonTW:hover{ background:url(../images/upd_schl_link_btn.gif) 0 -24px no-repeat;}
+.outsideLinkIconButtonWN{ background:url(../images/upd_orgnzn_link_btn.gif) no-repeat; height:24px; width:202px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.outsideLinkIconButtonWN:hover{ background:url(../images/upd_orgnzn_link_btn.gif) 0 -24px no-repeat;}
+.outsideLinkIconUserFiles {width:700px;}
+/* End OutsideLinkIcon Icon */
+
+/* E-Mail Icon */
+#emailLinkIconCustomContainer {margin-top:0px; clear:both; width:700px; margin-left:auto; margin-right:auto;}
+#emailLinkIconCustomContainer p {margin-bottom:25px;}
+.divUpdateEmailLinkIcon {width:180px;}
+#cusLeftCol .email-link-icon-list {overflow:auto; border:1px solid #a3424d; clear:both; width:700px;}
+#cusLeftCol .email-link-icon-list {font-size:14px; display:block; text-decoration:none;color:#42a357; cursor:pointer;height:200px; width:700px;}
+#emailLinkIconCustomContainer #cusRightCol {width:700px; float:none; clear:both;}
+#cusRightCol #email-link-icon-preview{clear:both; border:1px solid #a3424d; display:block; background:#fff; padding:25px 0px; width:700px; text-align:center;}
+#pnlEmailLinkIcon {vertical-align:middle; top: 150px;}
+.emailLinkIconButton{ background:url(../images/upd_emal_link_btn.gif) no-repeat; height:24px; width:172px; border:none; /*text-indent:-9999px;*/ cursor:pointer !important;}
+.emailLinkIconButton:hover{ background:url(../images/upd_emal_link_btn.gif) 0 -24px no-repeat;}
+.emailLinkIconUserFiles {width:700px;}
+/* End E-Mail Icon */
+
+/* Cusotmize TeacherWeb */
+.enterURL{padding:3% 8%; color:#999;}
+.enterURL .webUrl{color:#42a357;}
+
+#customContainer {margin-top:0px; clear:both; width:664px; margin-left:auto; margin-right:auto;}
+#customContainer p {margin-bottom:25px;}
+#cusLeftCol .container, #cusRightCol .container{color:#42a357; margin-bottom:25px;}
+#cusLeftCol{width:210px; left:10px; float:left;}
+
+#cusRightCol {width:440px; float:right; position:relative; /*height:475px;*/}
+#cusLeftCol .input-area {overflow:auto; border:1px solid #a3424d; clear:both; width:210px;}
+#cusLeftCol .input-area {font-size:14px; display:block; text-decoration:none;color:#42a357; cursor:pointer;}
+#cusLeftCol select option:hover {background:#a3424d; color:#fff;}
+#cusLeftCol select option:focus {background:#a3424d; color:#fff; }
+
+#cusLeftCol select option a:hover {background:#a3424d; color:#fff;}
+#cusLeftCol select option a:focus {background:#a3424d; color:#fff; }
+#cusLeftCol ul{height:110px; overflow:auto; border:1px solid #a3424d; clear:both;}
+#cusLeftCol li{font-size:12px;}
+#cusLeftCol li a{display:block; padding-left:5px; text-decoration:none;color:#42a357;}
+#cusLeftCol .selected{ background:#a3424d; color:#fff;}
+
+#cusRightCol #preview{clear:both; border:1px solid #a3424d; display:block; padding:3px; background:#fff; height:440px; width:440px;}
+#preview .overlay-text { font-weight:bold; font-size:17px; position:absolute; top:49px; width:313px; text-align:center; margin-left:auto; margin-right:auto; }
+#preview .overlay-text { font-family:"Lucida Sans"; color:#7F1823; margin: 0px 0 65px; overflow:hidden; }
+#preview .sample-style { font-weight:bold; font-size:17px; position:absolute; width:313px; text-align:center; margin-left:auto; margin-right:auto; }
+#preview .sample-style { top:175px; left:65px; }
+#preview .image-preview { top:175px; left:65px; }
+
+.cusTeacherWeb .txtImgs .{float:left; display:block; height:16px; line-height:16px;}
+.moreInfo{float:right; font-size:75%; color:#999; font-family:Georgia; padding-top:1px; }
+
+.containerImg {display:block; float:left; text-indent:-9999px;}
+.containerImg-header {width:180px; display:block; float:left; text-indent:-9999px;}
+
+.titleTag, .txtImg{float:left; text-indent:-9999px; display:block; height:27px;}
+.txtImg{float:none;}
+.accoutInfoPic{ background:url(../textPic/images/top_ttl_txt_accnt.html) no-repeat bottom left;}
+.testimonialsPic{background:url(../images/textPic/tstmnl_ttl_txt.html) no-repeat bottom left;width:184px;}
+.arizonaPic{background:url(../images/textPic/arizonaPic.html) no-repeat bottom left;}
+.teacherClassnamePic{background:url(../textPic/images/top_ttl_txt_clsnm.html) no-repeat bottom left; width:186px;}
+.webAddressPic{ background:url(../images/textPic/top_ttl_txt_wbadd.html) no-repeat bottom left;}
+.customizeTwPic{ background:url(../images/textPic/top_ttl_txt_cust.html) no-repeat bottom left; width:231px;}
+
+.previewWinPic{ background:url(../images/textPic/subttl_txt_prev.gif) no-repeat;}
+.webTypePic{ background:url(../images/textPic/subttl_txt_wtyp.gif) no-repeat; width:60px;}
+.designStylesPic{ background:url(../images/textPic/subttl_txt_dsnstl.gif) no-repeat; width:72px;}
+.colorThemesPic{ background:url(../images/textPic/subttl_txt_clrth.gif) no-repeat; width:74px;}
+
+.updateLookAndFeel{ background:url(../images/updtlf_btn3.gif) no-repeat; height:24px; width:150px; border:none; cursor:pointer !important;}
+.updateLookAndFeel:hover{ background:url(../images/updtlf_btn3.gif) 0 -24px no-repeat;}
+
+.ValidationSummary { text-align: left; padding: 10px; margin-bottom: 20px; border: 1px solid #C0C0C0; width: 545px}
+.divUpdateLookAndFeel { margin:0 0 0 0; padding:0px; clear:both; }
+
+.error-message { color:Red; padding:10px; text-align:left; border:1px solid red; margin-bottom:20px; font-size:13px; }
+/* End Cusotmize TeacherWeb */
+
+/* Styling for Look and Feel page */
+#browser li
+{
+	list-style:disc inside;
+}
+
+/* accountinfo.aspx */
+.notice-info-message {background:#FFF6BF; color:#514721; text-align: center; font-weight:bold; padding: 10px; margin: 20px 0px 25px 0px; border: 1px solid #FFD324; width: 97%;}
+.notice-error-message {background: #FBE3E4; color:Red; text-align: center; font-weight:bold; padding: 10px; margin: 20px 0px 25px 0px; border: 1px solid Red; width: 97%;}
+.notice-success-message {background: #E6EFC2; color:Green; text-align: center; font-weight:bold; padding: 10px; margin: 20px 0px 25px 0px; border: 1px solid Green; width: 97%;}
+/* End accountinfo.aspx */
+/*
+.success { background:#E6EFC2 none repeat scroll 0 0; border-color:#C6D880; color:#264409;}
+.error { background:#FBE3E4 none repeat scroll 0 0; border-color:#FBC2C4; color:#8A1F11; }
+*/
+
+.account-deleted {position:absolute;top:13px; background: #E6EFC2; color:Green; text-align: center; font-weight:bold; padding: 10px; margin: 20px 0px 25px 3px; border: 1px solid Green; width: 97%;}
+
+/* File Management */
+ul#imgThumbs li
+{
+    float:left;
+    text-align:center;
+    list-style:none;
+    border: 1px solid #e8e8e8;
+    margin: -1px;
+}
+ul#imgThumbs li .thumbDiv,
+ul#imgThumbs li .thumbDivSelected
+{
+    border:2px solid transparent;
+    height:60px;
+    padding:5px;
+    width:60px;
+}
+ul#imgThumbs li .thumbDiv:hover
+{
+    border:2px solid #005908;
+    background-color:#A5CB9C;
+}
+ul#imgThumbs li .thumbDivSelected
+{
+    border:2px solid #005908;
+    background-color:#A5CB9C;
+}
+ul#imgThumbs li .thumbDiv a
+ul#imgThumbs li .thumbDivSelected a
+{
+    text-decoration:none;
+}
+ul#imgThumbs li .thumbDiv a img,
+ul#imgThumbs li .thumbDivSelected a img
+{
+    max-height:60px;
+    max-width:60px;
+}
+/* End File Management */
+
+/* Update Index styles */
+a.deleteIcon {
+    background-image: url(../../../Assets/images/buttons/delete_icon.png);
+    background-position:left top;
+    height:19px;
+    display:block;
+    width:68px;
+}
+.moveIcon {
+    background-image: url(../../../Assets/images/buttons/move_btn.png);
+    background-position:left top;
+    height:19px;
+    display:block;
+    width:50px;
+}
+a.editPageSettingsIcon {
+    background-image: url(../../../Assets/images/buttons/edit_pgstng_btn.png);
+    background-position:left top;
+    height:19px;
+    display:block;
+    width:112px;
+}
+a.deleteIcon:hover, .moveIcon:hover, a.editPageSettingsIcon:hover {
+    background-position:left -28px;
+}
+
+/* =.siteUsageTable */
+.siteUsageTable {
+	border-collapse: collapse;
+	margin: 10px auto;
+	min-width: 90%;
+}
+.siteUsageTable tbody {
+    margin-bottom: 10px;
+}
+.siteUsageTable td {
+	text-align: center;
+	border-left: solid 1px #fff;
+}
+.siteUsageTable thead th {
+    padding: 2px 4px;
+    text-align: center;
+}
+.siteUsageTable td.pageName {
+	text-align: left;
+	border-left: none;
+}
+.siteUsageTable tr.totals td {
+	border-top: solid 1px #000;
+	border-left: none;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+.siteUsageTable tr.totals.grandTotals {
+	background-color: #FFFFE7;
+}
+.siteUsageTable tr.totals.grandTotals td {
+	padding-bottom: 0;
+}
+
+.html-tidy a
+{
+    text-decoration:none;
+    padding:1px 22px 0px 0px;
+    background: url("../../../Content/images/questionMark.html") no-repeat scroll right center transparent;
+}
+
+.html-tidy a:hover
+{
+    text-decoration:underline;
+}

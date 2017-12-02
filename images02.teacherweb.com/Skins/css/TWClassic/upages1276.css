@@ -1,0 +1,167 @@
+.ta_small
+{
+    height:300px;
+    behavior:url(#default#savehistory);
+}
+.ta_medium
+{
+    height:600px;
+    behavior:url(#default#savehistory);
+}
+.ta_large
+{
+    height:800px;
+    behavior:url(#default#savehistory);
+}
+#ta_menu{white-space:nowrap;}
+#ta_menu ul
+{
+    background-color:gray;
+    border:1px solid black;
+    float:left;
+    font-size:medium;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+#ta_menu ul li
+{
+	float:left;
+	padding-left:30px;
+	padding-right:30px;
+	border-right: solid 1px black;
+}
+#ta_menu ul li a
+{
+	float:left;
+	text-decoration:none;
+	color:blue;
+}
+#ta_menu ul li a:active
+{
+	float:left;
+	text-decoration:underline;
+}
+#ta_menu ul li a:hover
+{
+	float:left;
+	text-decoration:none;
+}
+
+/* Update Page Redesigns */
+input.submitIndent{margin-left:20px}
+p.versions{text-align:center; margin:20px 0 0 0;padding-right:60px}
+.passwordDiv {text-align:center; padding:0px 0px 0 0;}
+span.centerElement { margin:0px 0 0 40px;}
+label.labelMaxLength {padding-right:20px}
+.innerEditSection{text-align:left;}
+.itemHeader{font-weight:bold;}
+.updateContainer{width:700px;margin-left:auto;margin-right:auto;text-align:left;}
+.updateContainerH{width:720px;margin-left:auto;margin-right:auto;text-align:left;}
+.updateContainerHF{width:700px;margin-left:auto;margin-right:auto;text-align:left;}
+.updateContainerAPT{width:830px;margin-left:auto;margin-right:auto;text-align:left;}
+.updateContainerAP{width:830px;margin-left:auto;margin-right:auto;text-align:left;}
+.updateContainerNEWSFLASH{width:830px;margin-left:auto;margin-right:auto;text-align:left;}
+.updateContainerSkinnable{width:100%;min-width:600px;max-width:1000px;margin-left:auto;margin-right:auto;text-align:left;}
+.updateOuter {min-width:700px;margin:0 auto;}
+.updateOuterTopLeft {height:18px;background-image:url(../../../Content/images/outr_ctnr_top_lft.png); background-repeat:no-repeat;margin:0;width:25px;float:left;}
+.updateOuterTopRight {height:18px;background-image:url(../../../Content/images/outr_ctnr_top_rt.png); background-repeat:no-repeat;margin:0;width:580px;float:right;}
+.updateOuterBottomLeft {height:18px;background-image:url(../../../Content/images/outr_ctnr_btm_lft.png); background-repeat:no-repeat;margin:0;width:25px;float:left;}
+.updateOuterBottomRight {height:18px;background-image:url(../../../Content/images/outr_ctnr_btm_rt.png); background-repeat:no-repeat;margin:0;width:580px;float:right;}
+.updateOuterStretch {height:18px;background-image:url(../../../Content/images/outr_ctnr_rpt.gif); background-repeat:repeat-x;margin-left:25px;margin-right:580px;}
+.updateOuterContent {background: #d1d4d4 url(../../../Content/images/outerBGmid700.png) repeat-y top right;padding: 0 20px 1px 20px;text-align:center;}
+.updateInner {min-width:100%;color:#000;}
+.updateInnerTopLeft {height:18px;background-image:url(../../../Content/images/innr_ctnr_top_lft.png); background-repeat:no-repeat;margin:0;width:25px;float:left;}
+.updateInnerTopRight {height:18px;background-image:url(../../../Content/images/innr_ctnr_top_rt.png); background-repeat:no-repeat;margin:0;width:25px;float:right;}
+.updateInnerStretchTop {height:17px;background-image:url(../../../Content/images/innr_ctnr_top_rpt.gif); background-repeat:repeat-x;margin-left:25px;margin-right:25px;}
+.updateInnerBottomLeft {height:18px;background-image:url(../../../Content/images/innr_ctnr_btm_lft.png); background-repeat:no-repeat;margin:0;width:25px;float:left;}
+.updateInnerBottomRight {height:18px;background-image:url(../../../Content/images/innr_ctnr_btm_rt.png); background-repeat:no-repeat;margin:0;width:25px;float:right;}
+.updateInnerStretchBottom {height:17px;background-image:url(../../../Content/images/innr_ctnr_btm_rpt.gif); background-repeat:repeat-x;margin-left:25px;margin-right:25px;}
+.updateInnerContent {background:none;background-color:#fff;padding: 1px 5px 1px 5px;border-right:1px solid #7b7d7b;border-left:1px solid #7b7d7b;}
+.updatePassword {width:500px;margin:0 auto;}
+.updatePasswordContent {background:none;background-color:#fff;padding: 0 15px;border-right:1px solid #7b7d7b;border-left:1px solid #7b7d7b;}
+.updateItemRow {padding:5px 0;}
+.updateItemHeader {float:left; font-weight:bold;}
+.updateValidationMessages {color:red;margin-bottom:0px;}
+.float_left {float:left;}
+.float_right {float:right;}
+.dg-pagingControl {text-align:center;font-size:medium;}
+	
+.about-teacher-left-box { float: left; width: 40%; padding: 0px 4px; margin-left: -4px; margin-right: -4px; }
+.about-teacher-right-box { float: left; width: 60%; padding: 0px; border: 0px solid black; }
+
+/* AJAX Movable Boxes (style holder layout) */
+.tw{width:625px;font-family:'Trebuchet MS',Georgia,Arial,'Times New Roman',Times,serif;}
+.tw .container {float:left;width:570px;min-height:155px;height:auto !important;height:155px}
+.tw .container .admin{ text-align:right;clear:both;padding:2px 0;margin-top:5px;border-top:1px dotted #aaa}
+.tw .container .admin a{margin-right:5px;color:#5B7CB2;text-decoration:underline}
+.tw .container .content{border:1px solid #ccc;border-width:0 1px;min-height:70px;padding:2px 10px 0 10px;color:#918c8c;font-size:11px;background:#fff url(../../../Content/images/body-bg.gif) top right repeat-y}
+.tw .container .content p{margin:0}
+.tw .container .content p {margin:3px 0 0px 0;color:#666;font-size:14px;}
+.tw .container .content .data{/*margin:10px 0 20px 0;*/color:#666;line-height:26px;color:#5B7CB2;font-size:17px;}
+.tw .container .currentRate{ padding:0;margin:0 0 0 3px;display:inline;line-height:12px}
+.tw .container .footer{ background:url(../../../Content/images/bottom-l-corner.png) no-repeat;height:6px;margin-right:11px}
+.tw .container .footer .c{ background:url(../../../Content/images/bottom-r-corner.png) top right no-repeat;height:6px;margin-right:-11px}
+.tw .container .header{ background:url(../../../Content/images/top-l-corner.png) no-repeat;height:30px;margin-right:6px;color:#5B7CB2}
+.tw .container .header .c{ background:url(../../../Content/images/top-r-corner.png) top right no-repeat;height:30px;margin-right:-6px}
+.tw .container .header a ,.tw .container .header strong{line-height:26px;color:#5B7CB2;text-decoration:none;}
+.tw .container .name{ color:#888;font-size:14px;margin:0 5px}
+.tw .header strong{margin:0;padding:0;line-height:10px;padding-left:10px;float:left}
+.tw .side-menu {width:50px;color:#5B7CB2;display:block;text-align:center;height:73px;padding:0;background:transparent url(../../../Content/images/menu-grey.png) no-repeat;float:left;height:73px;padding:5px 0}
+.tw .side-menu strong{font-size:17px}.tw .side-menu .month,.side-menu .year{display:block}
+.tw .side-menu .year{ border-top:1px dotted #5B7CB2;padding:2px 0;margin-top:2px}
+/* End AJAX Movable Boxes (style holder layout) */
+
+/*
+.tw .rateAndComment {height:23px;border-top:1px dotted #aaa;padding:5px 0 10px 0}
+.tw .rateAndComment a{color:#5B7CB2;font-weight:bold;text-decoration:none}
+.tw .rateAndComment a img{border:none}
+.tw .rateAndComment .totalRate{float:left;display:block}
+.tw .rateAndComment td{ vertical-align:bottom}
+
+.tw .container .rating{width:200px;float:left;height:20px}
+.tw .container .rating table{margin-top:4px}
+.tw .container .comment{display:block;float:right;padding-top:0px;padding-right:5px;text-align:right}
+.tw .container .comment a{font-weight:normal;text-decoration:underline;display:block;margin-bottom:2px}
+*/
+
+.ordered-list { padding:0px 0px 0px 0px; margin:0px; }
+.ordered-list li { clear:both; list-style-image:none; /*padding-bottom:20px;*/ list-style-position:outside; list-style-type:none; /*height:210px;*/ }
+
+.ordered-list-alt { padding:0px 0px 0px 0px; margin:0px; }
+.ordered-list-alt li { clear:both; list-style-image:none; padding-bottom:20px; list-style-position:outside; list-style-type:none; height:285px; }
+
+.draglink { text-align:center; }
+
+#main ol { padding-left: 0px; }
+
+a.deleteIconSmall {
+    background-image: url(../../../Assets/images/buttons/delete_icon_sm.png);
+    background-position:left top;
+    height:19px;
+    display:block;
+    width:30px;
+}
+a.deleteIconSmall:hover {
+    background-position:left -28px;
+}
+
+.html-tidy
+{
+    margin:15px 0 10px;
+    padding:5px;
+    text-align:center;
+}
+
+.html-tidy a
+{
+    text-decoration:none;
+    padding:0px 22px 0px 2px;
+}
+
+.html-tidy a:hover
+{
+    text-decoration:underline;
+}

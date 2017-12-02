@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+teacherweb.com	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	ipotb345itgxbn553xb1el55
+angelfire.lycos.com	TRUE	/	FALSE	1999999999	CookieStatus	COOKIE_OK
+.hubspot.net	TRUE	/	FALSE	1999999999	__cfduid	dcc08d79a247da0f164c9d070b3aa99df1512198190
+myfeeds.aol.com	TRUE	/	FALSE	1999999999	RSP_CHECK_PORTAL_FAVORITES.AOL.COM	deleted
+o.aolcdn.com	TRUE	/	FALSE	1999999999	RSP_CHECK_PORTAL_FAVORITES.AOL.COM	deleted
+aol.com	TRUE	/	FALSE	1999999999	RSP_CHECK_PORTAL_FAVORITES.AOL.COM	deleted
+
